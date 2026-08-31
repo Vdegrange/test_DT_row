@@ -179,10 +179,10 @@ locals {
 resource "genesyscloud_architect_datatable_row" "message_info" {
   for_each = local.list_app_messageinfo
 
-  datatable_id = genesyscloud_architect_datatable.msg_info.id
+  datatable_id = data.genesyscloud_architect_datatable.msg_info.id
   key_value    = each.value.MoyenDeContact
   properties_json = jsonencode({
-    "${genesyscloud_architect_datatable.msg_info.properties[1].name}" = each.value.MessageInfo
+    "${data.genesyscloud_architect_datatable.msg_info.properties[1].name}" = each.value.MessageInfo
   })
 }
 
