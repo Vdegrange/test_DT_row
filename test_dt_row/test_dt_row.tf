@@ -1,5 +1,5 @@
 data "genesyscloud_architect_datatable" "msg_info" {
-  name     = "DT_App_Msg_Info"
+  name     = "App_MsgInfo"
 }
 
 locals {
