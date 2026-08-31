@@ -182,7 +182,7 @@ resource "genesyscloud_architect_datatable_row" "message_info" {
   datatable_id = data.genesyscloud_architect_datatable.msg_info.id
   key_value    = each.value.MoyenDeContact
   properties_json = jsonencode({
-    "${data.genesyscloud_architect_datatable.msg_info.properties[1].name}" = each.value.MessageInfo
+    "MessageInfo" = each.value.MessageInfo
   })
 }
 
