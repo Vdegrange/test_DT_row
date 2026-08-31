@@ -1,0 +1,3 @@
+Livrable,Segmentation,Domaine,Demande,Operateur_SousDomaine,SousDomaine,Operateur_SousDemande,SousDemande,Operateur_Produit,Produit,canal origine,canal contact,canal source,code flux,Marque distributrice,Type interlocuteur,Operateur_Marche,Marche,Type de client,Operateur_Mode_Acquisition,Mode Acquisition,Module identification du client,Strategie Ident Demande
+Marque Macif,Organisation,GERARD,SINISTRE,=,(*),Commence Par,SUIVI,=,(*),(*),(*),(*),(*),(*),(*),=,(*),(*),Contient,HO,(*),Identifier Sinistre IRD
+Marque Macif,Organisation,ROBERT,SUIVI SECHERESSE,=,(*),Commence Par,SUIVI,=,(*),(*),(*),(*),(*),(*),(*),=,(*),(*),Contient,HO,(*),Identifier Sinistre IRD
