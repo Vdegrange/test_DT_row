@@ -2,7 +2,7 @@ terraform {
     cloud{
         organization = "test_genesys"
         workspaces {
-          name = "test_genesys_cloud_cicd"
+          name = "test_DT_row"
         }
     }
     required_providers {
